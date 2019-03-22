@@ -2,7 +2,7 @@
 
 sudo apt-get update && apt-get upgrade -y
 
-sudo apt-get install git chromium htop
+ssudo apt-get install git chromium htop caja-open-terminal
 
 # wlan driver BCM4360
 sudo apt-get install linux-image-$(uname -r|sed 's,[^-]*-[^-]*-,,') linux-headers-$(uname -r|sed 's,[^-]*-[^-]*-,,') broadcom-sta-dkms
