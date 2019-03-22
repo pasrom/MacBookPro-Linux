@@ -1,0 +1,4 @@
+linux-rt-devel
+*.deb
+*.buildinfo
+*.changes
