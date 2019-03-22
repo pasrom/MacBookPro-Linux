@@ -9,7 +9,7 @@ sudo apt-get install linux-image-$(uname -r|sed 's,[^-]*-[^-]*-,,') linux-header
 
 # sensors
 sudo apt install lm-sensors hddtemp mate-sensors-applet mbpfan
-sudo cp ../config/mbpfan.conf /etc/mbpfan.conf
+sudo cp config/mbpfan.conf /etc/mbpfan.conf
 sudo systemctl restart mbpfan.service
 
 # kernel
