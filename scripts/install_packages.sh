@@ -1,6 +1,6 @@
 #!/bin/sh
 
-sudo apt-get update && apt-get upgrade -y
+sudo apt-get update && sudo apt-get upgrade -y
 
 ssudo apt-get install git chromium htop caja-open-terminal
 
