@@ -19,7 +19,6 @@ sudo apt install bison flex libelf-dev libssl-dev debhelper dh-virtualenv \
   build-essential libssl-dev libncurses5-dev bison flex bc qt5-default \
   qt5-qmake qtbase5-dev qtbase5-dev-tools pkg-config ccache
 
-
 if [[ ":$PATH:" == *":/usr/lib/ccache:"* ]]; then
   echo "Your path is correctly set"
 else
